@@ -1,0 +1,59 @@
+body {
+    background: #0d0d0d;
+    color: #ddd;
+    font-family: Arial;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    color: #39ff14;
+}
+
+.sub {
+    color: #888;
+    font-size: 14px;
+}
+
+.box {
+    background: #1b1b1b;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+label {
+    font-size: 14px;
+    color: #bbb;
+}
+
+select, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: none;
+    background: #111;
+    color: white;
+}
+
+button {
+    background: #39ff14;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button.alt {
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid #39ff14;
+    color: #39ff14;
+}
+
+.hidden {
+    display: none;
+}
