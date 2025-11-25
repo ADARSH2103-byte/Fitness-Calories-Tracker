@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Calories  Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Fitness Calories  Tracker</h1>
+
+<div class="box">
+    <label>Gender</label>
+    <select id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+
+    <label>Age Group</label>
+    <select id="age">
+        <option value="young">Young (18-35)</option>
+        <option value="adult">Adult (36-55)</option>
+        <option value="old">Old (55+)</option>
+    </select>
+
+    <label>Activity Level</label>
+    <select id="activity">
+        <option value="low">Low Activity</option>
+        <option value="medium">Medium Activity</option>
+        <option value="high">High Activity</option>
+    </select>
+</div>
+
+<div class="box">
+    <label>Enter Your Meal</label>
+    <textarea id="meal" placeholder="Example: 2 eggs, 1 banana"></textarea>
+
+    <button onclick="checkCalories()">Analyze with API</button>
+    <button class="alt" onclick="mockTest()">Mock Test</button>
+</div>
+
+<div id="result" class="box hidden">
+    <h2>Nutrition Result</h2>
+    <p id="calShow"></p>
+
+    <h2> Advice</h2>
+    <p id="advice"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
